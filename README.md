@@ -3,12 +3,13 @@
 ## Description
 An insight into my personality and work ethic. My hobbies 
 ## Setup/Installation Requirements
-Here's the link to my portfolio:
+Computer or Smartphone.
+Website link : https://i-krypt.github.io/Portfolio/
 #Active links to more of my works
-{1.
-2.}
+1.https://drive.google.com/open?id=1kyh8PqipGlCrNC9YbmtbA0Gu3zknhthW
+2.https://github.com/i-Krypt/One-M.git
 ## Authors
-  .Sam Nujoma
+Sam Nujoma
 
 ## Technologies Used
 I used Html and Css for the project
@@ -16,5 +17,5 @@ I used Html and Css for the project
 Contact me via email:vamay505@gmail.com
 ### License
 This project is licensed under the MIT License - see the LICENSE.md file for details
-Copyright (c) {2019} **{List of contributors or company name}**
+Copyright (c) 2019 Nujoma
   
