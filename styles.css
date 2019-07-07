@@ -199,6 +199,7 @@ header ul li a{
     font-family: 'PT Sans Narrow', sans-serif;
     color: #fff;
 
+
 }
 .contact-info .messageField{
     height: 150px;
@@ -214,11 +215,12 @@ header ul li a{
     color: #fff;
 }
 .contact-info .submitButton{
-    background-color:#fff ;
+    background-color:rgb(154, 0, 0) ;
     cursor: pointer;
     height: 50px;
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
+    border-radius: 20px;
 }
