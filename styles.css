@@ -78,3 +78,9 @@ header ul li a{
      background-color: #000000;
 
  }
+
+ section{
+     padding: 60px 0;
+     height: 100%;
+     position: relative;
+ }
