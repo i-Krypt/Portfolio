@@ -174,3 +174,51 @@ header ul li a{
 .gallery-info .col img{
     max-width: 100%;
 }
+
+/* contact section style */
+.contact{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 99;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0  ;
+}
+.contact-info .textField{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fff;
+
+}
+.contact-info .messageField{
+    height: 150px;
+    width: 100%;  
+    box-sizing: border-box;
+    background-color: transparent; 
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fff;
+}
+.contact-info .submitButton{
+    background-color:#fff ;
+    cursor: pointer;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+}
