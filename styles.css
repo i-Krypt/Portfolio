@@ -87,5 +87,34 @@ header ul li a{
 
 /* style home section */
 .home{
-    
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(https://i.ibb.co/R22m4jh/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #34495e;
+    background-attachment: fixed;
+    z-index: 9;
+}
+.home h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    text-shadow: 0 15px 20px #000000b0;
+    margin-bottom: 0;
+    visibility: hidden;
+}
+.home h5{
+    background: #000;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px 0 50px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    visibility: hidden;
 }
