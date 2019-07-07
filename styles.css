@@ -154,3 +154,23 @@ header ul li a{
     float: left;  
 } */
 
+/* gallery section style */
+.gallery{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: 99;
+}
+.gallery-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.gallery-info .col{
+    float: left;
+    width: 30%;
+    margin: 1%;
+}
+.gallery-info .col img{
+    max-width: 100%;
+}
