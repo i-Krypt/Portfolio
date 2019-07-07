@@ -143,16 +143,24 @@ header ul li a{
     line-height: 28px;
     font-size: 18px;
 }
-/* .timeline{
+ 
+.projects-handled{
     margin-top: 50px;
     display: flex;
+     
 }
-.timeline .col{
+.projects-handled .col{
     margin:5px;
     padding: 25px 5px;
     border: 1px solid #ffffff30;
-    float: left;  
-} */
+    float: left;
+}
+.projects-handled h6{
+    margin: 15px 0 0;
+    font-size:14px;
+    line-height: 24px;
+}
+
 
 /* gallery section style */
 .gallery{

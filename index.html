@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
     <title>Document</title>
@@ -34,29 +36,49 @@
         <h2 class="wow FadeInUp" data-wow-duration="1s" data-wow-delay=".4s">About</h2>
     </div>
     <div class="about-info">
-        <p  class="wow FadeInDown" data-wow-duration="1.3s" data-wow-delay=".9s">With the finesse touch on photographs and the ninja out on codes.</p>
-        <p  class="wow FadeInUp" data-wow-duration="1.3s" data-wow-delay="1s">No pizza no ninja</p>
+        <p  class="wow FadeInDown" data-wow-duration="1.3s" data-wow-delay=".9s"> I love the vibe that comes with developing and editing.Got me in love with coding and photography.I enjoy taking photos, the angles to it and the finesse shots.The ninja comes out while coding. I am a fan of TMNT especially Donnie.</p>
+        <p  class="wow FadeInUp" data-wow-duration="1.3s" data-wow-delay="1s">Well a creative needs to eat well and get into that zone :  <em>No pizza no ninja</em></p>
+        <h2 class="about-sh">Background Info</h2>
+        <p  class="wow FadeInUp" data-wow-duration="1.3s" data-wow-delay="1s"> 
+             <ul>
+                <li>Education:finished the 8.4.4 system</li>
+                <li>Job experience:online writing jobs </li>
+                <li>Coding classes:To become a better developer and solve problems using knowledge acquired</li>
+            </ul> </p>
+        <div class="projects-handled">
+                <a href="https://drive.google.com/open?id=1kyh8PqipGlCrNC9YbmtbA0Gu3zknhthW">
+                    <div class="col wow FadeInUp" data-wow-duration="1.1s" data-wow-delay="1s">
+                        <span>Feb 2017-March 2017</span>
+                         <h6>Eldo taxi...Java-Android</h6>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/open?id=1KJi49Co-APE-VZzyP0DmxboJVa-slv9t">
+                    <div class="col wow FadeInUp" data-wow-duration="1.1s" data-wow-delay="1s">
+                        <span>Aug 2018-Nov 2018</span>
+                        <h6>POcket Deals...Java-Android</h6>
+                    </div>
+                </a>
+               <a href="https://github.com/i-Krypt/One-M.git">
+                    <div class="col wow FadeInUp" data-wow-duration="1.8s" data-wow-delay="1s">
+                        <span>July 3rd 2019</span>
+                        <h6>One-M...html/css practise</h6>
+                    </div>
+               </a>
+                
+                <a href="">
+                <div class="col wow FadeInUp" data-wow-duration="1.9s" data-wow-delay="1s">
+                     <span>July 2019</span>
+                    <h6>Portfolio...Html/css/jquery</h6>
+                </div>
+                </a>
+               
+        
+            </div>
+   
     </div>
 
-    <div class="projects-handled">
-        <div class="col wow FadeInUp" data-wow-duration="1.1s" data-wow-delay="1s">
-            <span>Feb 2017-March 2017</span>
-            <h6>Eldo taxi...Pending</h6>
-        </div>
-        <div class="col wow FadeInUp" data-wow-duration="1.1s" data-wow-delay="1s">
-                <span>Feb 2017-March 2017</span>
-                <h6>Eldo taxi...Pending</h6>
-        </div>
-        <div class="col wow FadeInUp" data-wow-duration="1.8s" data-wow-delay="1s">
-                <span>Feb 2017-March 2017</span>
-                <h6>Eldo taxi...Pending</h6>
-        </div>
-        <div class="col wow FadeInUp" data-wow-duration="1.9s" data-wow-delay="1s">
-                <span>Feb 2017-March 2017</span>
-                <h6>Eldo taxi...Pending</h6>
-        </div>
 
-    </div>
+    
 
 </section>
  <!--Gallery section-->
@@ -85,6 +107,8 @@
           </div>
        
 
+          <br>
+          <p>Some of my photography works are in the</p>
      </div>
  </div>
 
@@ -106,14 +130,24 @@
 </section> 
  
 
-<!--Jquery cdn link-->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!--Jquery-->
+
 <script type="text/javascript">
 
 new WOW().init();
+ 
+
+$(window).scroll(function(){
+   var sticky = $("header");
+   if($(window).scrollTop >= 100){
+       sticky.addClass("fixed");
+   }else {
+       sticky.removeClass("fixed");
+   }
+});
+
 
 </script>
-
+  
 </body>
 </html>
